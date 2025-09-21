@@ -3,19 +3,22 @@
         <link href="style.css" rel="stylesheet">
     </head>
         <body>
-            <div>
-                <div>
-                    <img src="image/profile.jpg"
-                    width="100px"
-                    height="120px"/>
+            <div class="top">
+                <div class="instagram"> Instagram</div>
+                <input type="search" value="검색" class="input"/>
+            </div>
+            <div class="profile">
+                <div id="profile_photo">
+                    <img src="image/profile.jpg"/>
                 </div>
-                <div>
-                    <h2> qhalsdl_ </h2>
-                </div>
-                <div id="profile">
+                <div id="profile_bar">
+                        <div id="id"> qhalsdl_ </div>
+                        <div id="button">
                         <button>프로필 편집</button>
-                        <input type="search" value="검색"/>
-                </div>            
+                        <button> 보관된 스토리 보기</button>
+                        </div>
+                </div> 
+            </div>           
             <div>
                 <div>         
                     <p>
@@ -31,19 +34,18 @@
                     </p>
                 </div>
             </div>
-            <div>
-                <div>
-                    <div class="highlight">
-                        <img src="image/h1.jpg"
-                        height="35px"/>
+            <div id="highlight_area">
+                <div class="highlight">
+                    <div class="highlight_pic">
+                        <img src="image/h1.jpg"/>
+                    </div>
                     <div>
                         🚶
                     </div>
                 </div>
-                <div>
-                    <div class="highlight">
-                        <img src="image/h2.jpg"
-                        height="35px"/>
+                <div class="highlight">
+                    <div class="highlight_pic">
+                        <img src="image/h2.jpg"/>
                     </div>
                     <div>
                         🥐
@@ -51,25 +53,25 @@
                 </div>
             </div>
             <div>
-                <p>
-                    <div>    
+                <div id="stat_bar">
+                    <div class="stat">    
                         게시물<br/>
                         0
                     </div>
-                    <div>
+                    <div class="stat">
                         팔로워<br/>
                         165
                     </div>
-                    <div>
+                    <div class="stat">
                         팔로우<br/>
                         182
                     </div>
-                </p>
+                </div>
             </div>
-            <div>
-                <img src="image/thumbnails/th1.jpg" width="32%"/>
-                <img src="image/thumbnails/th2.jpg" width="32%"/>
-                <img src="image/thumbnails/th3.jpg" width="32%"/>
+            <div class="thumbnails_grid">
+                <img src="image/thumbnails/th1.jpg" class="thumbnail"/>
+                <img src="image/thumbnails/th2.jpg" class="thumbnail"/>
+                <img src="image/thumbnails/th3.jpg" class="thumbnail"/>
             </div>
         </body>
 </html>
