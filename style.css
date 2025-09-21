@@ -1,12 +1,13 @@
-<style>
-    h2{
-        color:magenta;
-    }
-    .highlight{
-        border:solid;
-    }
-    #profile{
-        border-color:pink;
-        border:solid;
-    }
-</style>
+h2{
+    color:pink;
+}
+.highlight
+{
+    border:solid;
+    border-color:pink;
+}
+#profile
+{
+    border:solid;
+    border-color:pink;
+}
